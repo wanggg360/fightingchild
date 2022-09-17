@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "onReachBottomDistance": 10,
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true,
+
+  "usingComponents": {
+    "mp-icon": "weui-miniprogram/icon/icon",
+    "home-card": "../../components/home-card/index",
+    "home-card-list": "../../components/home-card-list/index"
+  }
+}

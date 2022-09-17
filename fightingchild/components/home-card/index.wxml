@@ -1,0 +1,8 @@
+<view id="{{uniqueId}}" data-card="{{card}}" bindtap="tapHandle">
+  <view>
+    <image src="{{card.img}}"></image>
+  </view>
+  <view>
+    <text>{{card.text}}</text>
+  </view>
+</view>

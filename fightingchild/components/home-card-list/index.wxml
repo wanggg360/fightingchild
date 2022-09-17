@@ -1,0 +1,6 @@
+<view id="{{uniqueId}}">
+  <block wx:for="{{homeCardList}}" wx:for-item="item" wx:key="index">
+		<home-card id="{{uniqueId}}-hc-{{index}}" data="{{item}}">
+    </home-card>
+	</block>
+</view>

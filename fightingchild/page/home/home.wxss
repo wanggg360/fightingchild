@@ -1,0 +1,26 @@
+page {
+  box-sizing: border-box;
+}
+
+.home-page-container,
+.home-page-header {
+  display: block;
+  padding: 0 24rpx;
+}
+
+.home-page-header {
+  background: #f5f5f5;
+}
+
+.home-page-header .swiper-wrap {
+  margin-top: 10rpx;
+}
+
+.home-page-header .swiper-wrap .swiper-image {
+  width: 100%;
+  height: 300rpx;
+}
+
+.home-page-container {
+  background: #f5f5f5;
+}
