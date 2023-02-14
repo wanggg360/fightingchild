@@ -1,8 +1,10 @@
-<view id="{{uniqueId}}" data-card="{{card}}" bindtap="tapHandle">
-  <view>
-    <image src="{{card.img}}"></image>
-  </view>
-  <view>
-    <text>{{card.text}}</text>
+<view id="{{uniqueId}}" data-card="{{card}}" bindtap="tapHandle" class="homecard">
+  <view class="homecard-main">
+    <view class="homecard-thumb">
+      <image class="homecard-img" src="{{card.img}}" mode="heightFix"></image>
+    </view>
+    <view class="homecard-text">
+      <text>{{card.text}}</text>
+    </view>
   </view>
 </view>

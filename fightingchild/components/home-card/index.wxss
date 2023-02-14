@@ -1,0 +1,41 @@
+.homecard {
+  box-sizing: border-box;
+  border-radius: 0 0 16rpx 16rpx;
+  border-bottom: none;
+}
+
+.homecard-thumb {
+  flex-shrink: 0;
+  position: relative;
+  width: 340rpx;
+  height: 340rpx;
+}
+
+.homecard-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.homecard-main {
+  position: relative;
+  display: flex;
+  line-height: 1;
+  padding: 0;
+  background: transparent;
+  width: 342rpx;
+  border-radius: 0 0 16rpx 16rpx;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16rpx;
+  flex-direction: column;
+}
+
+.homecard-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

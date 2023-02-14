@@ -1,5 +1,5 @@
 import { config } from '../../config/config'
-import { getHomeCardList, getHomeSwiperImageList } from '../../mockdata/homepage'
+import { getHomeCardList, getHomeSwiperImageList } from '../../data/homepage'
 
 function fetchHomeWithMock() {
   return new Promise((resolve) => setTimeout(resolve, 1000)).then(() => {
